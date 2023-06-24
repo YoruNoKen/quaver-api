@@ -1,0 +1,27 @@
+{
+  "name": "quaver-api",
+  "version": "1.0.0",
+  "description": "A JavaScript wrapper for the Quaver API.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "node test/index.js"
+  },
+  "keywords": [
+    "quaver"
+  ],
+  "author": "yoru#9267",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YoruNoKen/mcsr-api"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.7",
+    "typescript": "^4.5.2"
+  }
+}
