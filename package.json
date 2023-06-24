@@ -18,7 +18,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/YoruNoKen/mcsr-api"
+    "url": "https://github.com/YoruNoKen/quaver-api-wrapper"
   },
   "devDependencies": {
     "@types/node": "^16.11.7",
