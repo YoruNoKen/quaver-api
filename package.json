@@ -1,6 +1,6 @@
 {
-  "name": "quaver-api",
-  "version": "1.0.0",
+  "name": "quaver-api-wrapper",
+  "version": "1.0.1",
   "description": "A JavaScript wrapper for the Quaver API.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
