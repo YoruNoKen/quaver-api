@@ -54,6 +54,13 @@ interface Keys {
     fail_count: number;
     max_combo: number;
     replays_watched: number;
+    count_grade_x?: number;
+    count_grade_ss?: number;
+    count_grade_s?: number;
+    count_grade_a?: number;
+    count_grade_b?: number;
+    count_grade_c?: number;
+    count_grade_d?: number;
     total_marv: number;
     total_perf: number;
     total_great: number;
