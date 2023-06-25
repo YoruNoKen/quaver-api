@@ -7,5 +7,5 @@ export async function details(ids: string | number | number[] | string[]): Promi
   let searchArray = names.join("&id=");
 
   const res = await fetch(`${baseUrl}/users?id=${searchArray}`).then((res) => res.json());
-  return res.status === 200 ? res.users : res;
+  return res.status === 200 ? res.users : [res];
 }

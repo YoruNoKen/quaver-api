@@ -10,5 +10,5 @@ export async function scores(id: string | number, { mode, limit, page, type }: {
   if (page) url += `&page=${page}`;
 
   let res = await fetch(url).then((res) => res.json());
-  return res.status === 200 ? res.scores : res;
+  return res.status === 200 ? res.scores : [res];
 }

@@ -10,5 +10,5 @@ export async function maps(id: string | number, { mode, status, page }: { mode?:
   if (mode) url += `&mode=${page}`;
 
   let res = await fetch(url).then((res) => res.json());
-  return res.status === 200 ? res.mapsets : res;
+  return res.status === 200 ? res.mapsets : [res];
 }
