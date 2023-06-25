@@ -8,7 +8,7 @@ export interface Scores {
   personal_best: boolean;
   total_score: number;
   accuracy: number;
-  grade: string;
+  grade: "X" | "SS" | "S" | "A" | "B" | "C" | "D" | "F";
   max_combo: number;
   count_marv: number;
   count_perf: number;
