@@ -20,6 +20,7 @@ export interface Details {
     };
     online: boolean;
   };
+  clan: string | null;
   profile_badges: badges[];
   activity_feed: feed[];
   keys4: Keys;
