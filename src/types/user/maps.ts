@@ -1,4 +1,5 @@
 export interface Maps {
+  status?: number;
   id: number;
   package_md5: string;
   creator_id: number;

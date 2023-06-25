@@ -1,4 +1,5 @@
 export interface Details {
+  status?: number;
   id: number;
   steam_id: string;
   username: string;

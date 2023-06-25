@@ -1,4 +1,5 @@
 export interface Scores {
+  status?: number;
   id: number;
   time: string;
   mode: number;
