@@ -1,5 +1,6 @@
 export interface Details {
   status?: number;
+  error?: string;
   info: {
     id: number;
     steam_id: string;

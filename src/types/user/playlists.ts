@@ -1,5 +1,6 @@
 export interface Playlists {
   status?: number;
+  error?: string;
   id: number;
   name: string;
   description: string;
